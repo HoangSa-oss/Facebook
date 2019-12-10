@@ -1,0 +1,266 @@
+body{
+	font-family: sans-serif;
+	font-family: Arial;
+	background-color:  #ECF3FF;
+	margin: 0px;
+
+
+}
+.tastbar{
+	display: flex;
+	background-color: #4267B2;
+	height: 
+
+	
+}
+.search{
+	display: flex;
+	color: #1C1C1C;
+	margin-left:  125px;
+
+	flex-basis: 600px;
+	justify-content: flex-start;
+	align-items: center;
+
+}
+.timkiem{
+  border: none;
+  width: 400px;
+  height: 25px;
+  margin-left: 3px;
+  border-radius: 2px 0 0 2px;
+
+}
+.buttonsearch{
+	border: none;
+	height: 27px;
+	width: 38px;
+	background-color: #F2F3F5;
+	color: #828282;
+	border-radius: 0 2px 2px 0;
+}
+.wordandicon{ 
+	margin-right:  125px;
+	display: flex;
+	flex-grow: 1;
+	justify-content: space-around;
+	align-items: center;
+		
+}
+.word{
+	display: flex;
+	justify-content: space-around;
+	font-weight: bold;
+	color: white;
+	align-items: center;
+	flex-grow: 5;
+	font-size: 12px;
+}
+.avatar{
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+	margin-right: 5px;
+
+}
+.icon{
+	display: flex;
+	justify-content: space-around;
+	flex-grow: 3;
+		font-size: 20px;
+}
+
+.icon2{
+	display: flex;
+	justify-content: space-around;
+	flex-grow: 2;
+	font-size: 20px;
+
+}
+.word div{
+	display: flex;
+	flex-grow: 1;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+.word div:hover{
+	background-color: rgba(0, 0, 0, 0.1)
+}
+.caidat{
+	display: flex;
+	flex-grow: 1;
+	text-align: center;
+	align-items: center;
+	justify-content: center
+}
+.icon div:hover{
+	color: rgba(0, 0, 0, 0.1);
+}
+.icon2 div:hover{
+	color: rgba(0, 0, 0, 0.1);
+}
+.cover{
+	height: 315px;
+	width: 851px;
+	 display: block;
+  margin-left: 241px;
+  margin-right: 241px;
+}
+.coverandavatar{
+	height: 315px;
+}
+.avatarbig{
+	height: 200px;
+	width: 200px;
+	position: relative;
+	bottom: 170px;
+	left:  260px;
+	border-radius: 50%;
+	border: 4px solid white ;
+	z-index: 1;
+}
+.wordcover{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	position: relative;
+	bottom: 260px;
+	left:  475px;
+	width: 617px;
+}
+.fullname{
+	display: flex;
+	flex-grow: 2;
+	font-family: sans-serif;
+	font-family: Arial;
+	font-size: 24px;
+	font-weight: 600;
+	color: white;
+}
+.capnhatthongtin{
+	display: flex;
+	flex-grow: 1;
+	font-family: sans-serif;
+	font-family: Arial;
+	border:none;
+	background-color: #F2F3F5;
+	margin-right:  20px;
+	width: 100px;
+	height: 27px;
+	justify-content: center;
+	align-items: center;
+
+}
+.wordcover{
+	font-family: sans-serif;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: 600;
+}
+.nhatki{
+	border:none;
+	background-color: #F2F3F5;
+	display: flex;
+	flex-grow: 1;
+	font-family: sans-serif;
+	font-family: Arial;
+	margin-right: 10px;
+	height: 27px;
+	align-items: center;
+	justify-content:center;
+}
+#iconnhatki{
+	display: flex;
+	position: relative;
+	right: 2px
+}
+.dongthoigian1{
+	position: relative;
+	bottom:16px;
+	margin-left: 241px;
+	margin-right: 257px;
+	
+}
+.dongthoigian{
+	height: 50px;
+	display: flex;
+	list-style-type: none;
+	background-color: white;
+padding-left: 235px;
+	
+}
+.dongthoigian li{
+	display: flex;
+	align-items: center;
+	flex-grow: 1;
+	justify-content: center;
+	height: 50px;
+	border-left: 1px solid #e9eaed;
+}
+.content{
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	margin-left: 241px;
+	margin-right: 257px;
+	grid-gap: 1.5rem;
+
+}
+
+.word div{
+	margin:0px;
+	height: 56px;
+}
+.left{
+	display: grid;
+	grid-template-rows: 30px 300px 300px 300px 100px ;
+	grid-gap: 10px;
+}
+.left div{
+	background-color: white;
+	border-style: 1px solid;
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+	padding-left: 10px;
+}
+.right{
+	display: grid;
+	grid-template-rows: 150px 30px 300px;
+	grid-gap: 10px;
+}
+.taskbartop{
+	display: flex;
+}
+.taskbartop::after{
+	content: "";
+	border-right:1px solid;
+}
+.taskbartop div{
+	display: flex;
+	flex-grow: 1;
+	justify-content: center;
+	background-color: white;
+	border-top:  1px solid;
+	border-bottom: 1px solid;
+	border-left: 1px solid;
+}
+.stt{
+	height: 100px;
+	width: 570px;
+}
+.taskbarbottom{
+	display: flex;
+	align-items: center;
+	height: 24px;
+	justify-content: space-around;
+}
+
+.click{
+	display: block;
+}
+.stt1:active{
+	.stt2{
+		background-color: red;
+	}
+}
